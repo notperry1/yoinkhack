@@ -11,7 +11,7 @@ import java.io.IOException;
  * @author yoink
  * @since 8/28/2020
  */
-public class ButtonGUI extends GuiScreen
+public class ButtonGui extends GuiScreen
 {
 	private GuiTextField name1;
 	private GuiTextField ip1;
