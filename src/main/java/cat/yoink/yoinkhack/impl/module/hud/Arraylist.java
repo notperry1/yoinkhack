@@ -7,10 +7,6 @@ import cat.yoink.yoinkhack.api.setting.Setting;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Arraylist extends Module
 {
 	public Arraylist(String name, Category category, boolean drawn, String description)

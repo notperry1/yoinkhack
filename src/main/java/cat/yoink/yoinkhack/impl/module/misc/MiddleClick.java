@@ -14,10 +14,6 @@ import org.lwjgl.input.Mouse;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class MiddleClick extends Module
 {
 	private final Setting mode = new Setting("Mode", this, "Smart", new ArrayList<>(Arrays.asList("Friend", "Pearl", "Smart")));

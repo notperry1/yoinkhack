@@ -5,10 +5,6 @@ import cat.yoink.yoinkhack.api.module.Module;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class NoBedtrapMsg extends Module
 {
 

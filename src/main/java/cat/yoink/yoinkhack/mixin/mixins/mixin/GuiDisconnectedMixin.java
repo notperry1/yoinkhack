@@ -4,10 +4,6 @@ import net.minecraft.client.gui.GuiDisconnected;
 import net.minecraft.client.gui.GuiScreen;
 import org.spongepowered.asm.mixin.Mixin;
 
-/**
- * @author yoink
- * @since 9/3/2020
- */
 @Mixin(GuiDisconnected.class)
 public class GuiDisconnectedMixin extends GuiScreen
 {

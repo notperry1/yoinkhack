@@ -8,10 +8,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class TPSUtil
 {
 	public static TPSUtil INSTANCE;

@@ -38,10 +38,6 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.*;
 
-/**
- * @author yoink
- * @since 8/30/2020
- */
 public class Auto32K extends Module
 {
 	private final Setting mode = new Setting("Mode", this, "Dispenser", new ArrayList<>(Arrays.asList("Normal", "Dispenser")));

@@ -10,10 +10,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class ChatModifier extends Module
 {
 	private final Setting blue = new Setting("Blue", this, false);

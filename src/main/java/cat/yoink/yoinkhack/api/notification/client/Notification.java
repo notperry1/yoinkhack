@@ -9,10 +9,6 @@ import net.minecraft.client.gui.ScaledResolution;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Notification
 {
 	private final Minecraft mc = Minecraft.getMinecraft();

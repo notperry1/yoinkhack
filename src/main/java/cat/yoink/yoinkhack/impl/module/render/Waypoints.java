@@ -19,10 +19,6 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.UUID;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Waypoints extends Module
 {
 	private final Setting death = new Setting("Death", this, false);

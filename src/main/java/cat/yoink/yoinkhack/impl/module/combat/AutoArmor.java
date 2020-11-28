@@ -11,10 +11,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class AutoArmor extends Module
 {
 	public AutoArmor(String name, Category category, String description)

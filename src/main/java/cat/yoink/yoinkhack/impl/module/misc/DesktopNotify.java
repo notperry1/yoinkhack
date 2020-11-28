@@ -16,10 +16,6 @@ import org.lwjgl.opengl.Display;
 import java.awt.*;
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class DesktopNotify extends Module
 {
 	private final Setting chatMention = new Setting("ChatMention", this, true);

@@ -13,10 +13,6 @@ import net.minecraft.util.math.Vec3d;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Waypoint
 {
 	private final Minecraft mc = Minecraft.getMinecraft();

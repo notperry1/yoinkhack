@@ -5,10 +5,6 @@ import cat.yoink.yoinkhack.api.module.Module;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class SettingManager
 {
 	private final ArrayList<Setting> settings = new ArrayList<>();

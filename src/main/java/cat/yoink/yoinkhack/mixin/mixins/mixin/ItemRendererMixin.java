@@ -12,10 +12,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = ItemRenderer.class, priority = 999)
 public abstract class ItemRendererMixin implements IItemRenderer
 {

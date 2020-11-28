@@ -7,10 +7,6 @@ import net.minecraft.client.gui.GuiScreen;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class HUDEditor extends GuiScreen
 {
 	private boolean dragging;

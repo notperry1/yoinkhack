@@ -18,10 +18,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class AutoGG extends Module
 {
 	private final Setting timeoutTicks = new Setting("Delay", this, 0, 30, 200);

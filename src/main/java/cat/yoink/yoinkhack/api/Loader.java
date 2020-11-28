@@ -25,10 +25,6 @@ import cat.yoink.yoinkhack.api.waypoint.WaypointManager;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class Loader
 {
 	public void load()

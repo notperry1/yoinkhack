@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.impl.event;
 import cat.yoink.yoinkhack.api.module.Module;
 import net.minecraftforge.fml.common.eventhandler.Event;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ToggleEvent extends Event
 {
 	private final Module module;

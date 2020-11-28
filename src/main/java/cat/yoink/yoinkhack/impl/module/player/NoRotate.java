@@ -7,10 +7,6 @@ import cat.yoink.yoinkhack.mixin.mixins.accessor.ISPacketPlayerPosLook;
 import net.minecraft.network.play.server.SPacketPlayerPosLook;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class NoRotate extends Module
 {
 	public NoRotate(String name, Category category, String description)

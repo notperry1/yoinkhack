@@ -12,10 +12,6 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = Minecraft.class, priority = 999)
 public class MinecraftMixin implements IMinecraft
 {

@@ -8,10 +8,6 @@ import org.lwjgl.input.Mouse;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ClickGUI extends GuiScreen
 {
 	private final ArrayList<Window> windows = new ArrayList<>();

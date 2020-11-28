@@ -16,10 +16,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.util.*;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class ClientNotify extends Module
 {
 	private final Setting time = new Setting("Time", this, 1, 7, 20);

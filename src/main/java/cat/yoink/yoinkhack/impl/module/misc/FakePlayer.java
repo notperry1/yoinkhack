@@ -9,10 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class FakePlayer extends Module
 {
 	private final List<Integer> fakePlayerIdList = new ArrayList<>();

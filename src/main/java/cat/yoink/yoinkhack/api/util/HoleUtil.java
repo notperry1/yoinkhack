@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.api.util;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3i;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class HoleUtil extends Vec3i
 {
 	private final BlockPos blockPos;

@@ -5,10 +5,6 @@ import net.minecraft.client.gui.ScaledResolution;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ClientNotificationManager
 {
 	private final ArrayList<Notification> notifications = new ArrayList<>();

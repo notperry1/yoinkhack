@@ -4,10 +4,6 @@ import cat.yoink.yoinkhack.api.command.Command;
 import cat.yoink.yoinkhack.api.util.LoggerUtil;
 import cat.yoink.yoinkhack.api.util.LoginUtil;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Login extends Command
 {
 	public Login(String name, String[] alias, String usage)

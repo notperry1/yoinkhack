@@ -18,10 +18,6 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Announcer extends Module
 {
 	private final Setting watermark = new Setting("Watermark", this, false);

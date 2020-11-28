@@ -12,10 +12,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class Nametags extends Module
 {
 	public Nametags(String name, Category category, String description)

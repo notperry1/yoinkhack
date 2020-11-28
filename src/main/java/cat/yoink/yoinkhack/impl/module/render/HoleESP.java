@@ -23,10 +23,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class HoleESP extends Module
 {
 	private final Setting range = new Setting("Range", this, 1, 6, 20);

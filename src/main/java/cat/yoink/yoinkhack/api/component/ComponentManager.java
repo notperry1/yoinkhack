@@ -6,10 +6,6 @@ import net.minecraftforge.common.MinecraftForge;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ComponentManager
 {
 	public ArrayList<Component> components = new ArrayList<>();

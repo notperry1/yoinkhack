@@ -5,10 +5,6 @@ import net.minecraft.network.play.client.CPacketPlayer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = CPacketPlayer.class, priority = 999)
 public class CPacketPlayerMixin implements ICPacketPlayer
 {

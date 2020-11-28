@@ -5,10 +5,6 @@ import cat.yoink.yoinkhack.api.util.font.FontUtil;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 9/2/2020
- */
 public class BPS extends Component
 {
 	private float bps = 0;

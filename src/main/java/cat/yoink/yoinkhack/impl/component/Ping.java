@@ -6,10 +6,6 @@ import net.minecraft.client.network.NetworkPlayerInfo;
 
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Ping extends Component
 {
 	public Ping(String name)

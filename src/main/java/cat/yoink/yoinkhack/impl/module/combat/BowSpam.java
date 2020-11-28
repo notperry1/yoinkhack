@@ -9,10 +9,6 @@ import net.minecraft.network.play.client.CPacketPlayerTryUseItem;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class BowSpam extends Module
 {
 	public BowSpam(String name, Category category, String description)

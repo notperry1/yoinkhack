@@ -15,10 +15,6 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Speed extends Module
 {
 	private final Setting speed = new Setting("Speed", this, 1, 18, 50);

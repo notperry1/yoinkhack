@@ -8,10 +8,6 @@ import cat.yoink.yoinkhack.api.util.font.FontUtil;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class BoolButton extends SettingButton
 {
 	private final Setting setting;

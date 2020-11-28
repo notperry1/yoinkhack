@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.api.macro;
 import cat.yoink.yoinkhack.Client;
 import net.minecraft.client.Minecraft;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Macro
 {
 	private int key;

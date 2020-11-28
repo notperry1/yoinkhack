@@ -21,10 +21,6 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class PlaceUtil
 {
 	private static final Minecraft mc = Minecraft.getMinecraft();

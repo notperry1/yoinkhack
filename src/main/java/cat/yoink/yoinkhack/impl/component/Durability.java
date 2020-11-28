@@ -7,10 +7,6 @@ import net.minecraft.client.gui.Gui;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Durability extends Component
 {
 	public Durability(String name)

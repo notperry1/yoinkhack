@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Fullbright extends Module
 {
 	private final Setting mode = new Setting("Mode", this, "Gamma", new ArrayList<>(Arrays.asList("Gamma", "Potion")));

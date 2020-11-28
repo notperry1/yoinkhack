@@ -5,10 +5,6 @@ import cat.yoink.yoinkhack.api.module.Module;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class NoWeather extends Module
 {
 	public NoWeather(String name, Category category, String description)

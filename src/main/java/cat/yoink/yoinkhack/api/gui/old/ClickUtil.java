@@ -9,10 +9,6 @@ import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import org.lwjgl.opengl.GL11;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ClickUtil
 {
 	public static Tessellator tessellator = Tessellator.getInstance();

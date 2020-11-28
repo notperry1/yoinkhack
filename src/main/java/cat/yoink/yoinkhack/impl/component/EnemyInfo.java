@@ -26,10 +26,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class EnemyInfo extends Component
 {
 	private final HashMap<String, Integer> popList = new HashMap<>();

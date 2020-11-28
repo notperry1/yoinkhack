@@ -6,10 +6,6 @@ import net.minecraft.client.gui.FontRenderer;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/31/2020
- */
 public class FontUtil
 {
 	private static final FontRenderer fontRenderer = Minecraft.getMinecraft().fontRenderer;

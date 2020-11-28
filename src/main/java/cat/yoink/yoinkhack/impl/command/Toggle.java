@@ -4,10 +4,6 @@ import cat.yoink.yoinkhack.Client;
 import cat.yoink.yoinkhack.api.command.Command;
 import cat.yoink.yoinkhack.api.module.Module;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Toggle extends Command
 {
 	public Toggle(String name, String[] alias, String usage)

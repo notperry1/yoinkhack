@@ -9,10 +9,6 @@ import net.minecraft.client.gui.Gui;
 import java.awt.*;
 import java.util.Comparator;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Arraylist extends Component
 {
 	private int X;

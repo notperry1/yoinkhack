@@ -6,10 +6,6 @@ import cat.yoink.yoinkhack.api.util.font.FontUtil;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Watermark extends Component
 {
 	private float hue = 0f;

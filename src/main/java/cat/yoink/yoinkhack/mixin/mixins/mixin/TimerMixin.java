@@ -5,10 +5,6 @@ import net.minecraft.util.Timer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = Timer.class, priority = 999)
 public class TimerMixin implements ITimer
 {

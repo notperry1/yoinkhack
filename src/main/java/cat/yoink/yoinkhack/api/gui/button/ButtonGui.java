@@ -7,10 +7,6 @@ import net.minecraft.client.gui.GuiTextField;
 
 import java.io.IOException;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ButtonGui extends GuiScreen
 {
 	private GuiTextField name1;

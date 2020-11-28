@@ -31,10 +31,6 @@ import java.util.List;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class AutoCrystal extends Module
 {
 	private final Setting attackSpeed = new Setting("AttackSpeed", this, 0, 17, 20);

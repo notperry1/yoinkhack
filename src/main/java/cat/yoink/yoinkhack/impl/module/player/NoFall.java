@@ -14,10 +14,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class NoFall extends Module
 {
 	private final Setting mode = new Setting("Mode", this, "Packet", new ArrayList<>(Arrays.asList("Packet", "Bypass")));

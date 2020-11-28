@@ -5,10 +5,6 @@ import cat.yoink.yoinkhack.impl.command.*;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class CommandManager
 {
 	private final ArrayList<Command> commands = new ArrayList<>();

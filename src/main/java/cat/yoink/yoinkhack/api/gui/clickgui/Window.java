@@ -11,10 +11,6 @@ import net.minecraft.client.gui.Gui;
 import java.awt.*;
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Window implements IComponent
 {
 	private final ArrayList<ModuleButton> buttons = new ArrayList<>();

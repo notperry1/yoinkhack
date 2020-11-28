@@ -7,10 +7,6 @@ import net.minecraft.client.gui.GuiMainMenu;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class AutoLog extends Module
 {
 	private final Setting health = new Setting("Health", this, 1, 10, 20);

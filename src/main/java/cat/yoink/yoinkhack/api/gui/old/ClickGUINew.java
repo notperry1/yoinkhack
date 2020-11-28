@@ -8,10 +8,6 @@ import cat.yoink.yoinkhack.api.util.font.FontUtil;
 import net.minecraft.client.gui.GuiScreen;
 import org.lwjgl.input.Keyboard;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ClickGUINew extends GuiScreen /*implements Client.INSTANCE*/
 {
 	private boolean B = false;

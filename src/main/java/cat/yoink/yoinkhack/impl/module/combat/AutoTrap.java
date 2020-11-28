@@ -21,10 +21,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class AutoTrap extends Module
 {
 	private final Setting disable = new Setting("Disable", this, true);

@@ -2,10 +2,6 @@ package cat.yoink.yoinkhack.api.waypoint;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class WaypointManager
 {
 	private final ArrayList<Waypoint> waypoints = new ArrayList<>();

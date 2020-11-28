@@ -8,10 +8,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.util.Random;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Derp extends Module
 {
 

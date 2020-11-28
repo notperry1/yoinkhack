@@ -5,10 +5,6 @@ import club.minnced.discord.rpc.DiscordEventHandlers;
 import club.minnced.discord.rpc.DiscordRPC;
 import club.minnced.discord.rpc.DiscordRichPresence;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Discord
 {
 	private final DiscordRichPresence presence = new DiscordRichPresence();

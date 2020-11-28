@@ -2,10 +2,6 @@ package cat.yoink.yoinkhack.api.buttons;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ButtonManager
 {
 	private final ArrayList<Button> buttons = new ArrayList<>();

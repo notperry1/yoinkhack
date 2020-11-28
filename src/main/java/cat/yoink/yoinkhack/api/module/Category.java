@@ -1,9 +1,5 @@
 package cat.yoink.yoinkhack.api.module;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public enum Category
 {
 	COMBAT("Combat", 3),

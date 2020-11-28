@@ -11,10 +11,6 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class HoleTP extends Module
 {
 	private final Setting holeOnly = new Setting("HoleOnly", this, true);

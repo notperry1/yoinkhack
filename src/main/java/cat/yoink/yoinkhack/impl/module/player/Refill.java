@@ -14,10 +14,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Refill extends Module
 {
 	private final Setting threshold = new Setting("Threshold", this, 1, 20, 63);

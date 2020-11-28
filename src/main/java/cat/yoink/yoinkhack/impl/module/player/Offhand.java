@@ -22,10 +22,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Offhand extends Module
 {
 	private final Setting itemAuto = new Setting("AutoItem", this, "Crystal", new ArrayList<>(Arrays.asList("Gapple", "Crystal")));

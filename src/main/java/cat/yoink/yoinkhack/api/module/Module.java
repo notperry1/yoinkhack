@@ -7,10 +7,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import org.lwjgl.input.Keyboard;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Module
 {
 	public final Minecraft mc = Minecraft.getMinecraft();

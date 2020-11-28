@@ -7,10 +7,6 @@ import net.minecraftforge.client.event.RenderHandEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class ViewModelChanger extends Module
 {
 	private final Setting noHands = new Setting("NoHands", this, false);

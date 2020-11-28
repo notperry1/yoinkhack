@@ -8,10 +8,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class RotationLock extends Module
 {
 	private final Setting sYaw = new Setting("Yaw", this, true);

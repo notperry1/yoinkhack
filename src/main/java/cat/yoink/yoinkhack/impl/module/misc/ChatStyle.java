@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class ChatStyle extends Module
 {
 	private final Setting timestamp = new Setting("Timestamp", this, false);

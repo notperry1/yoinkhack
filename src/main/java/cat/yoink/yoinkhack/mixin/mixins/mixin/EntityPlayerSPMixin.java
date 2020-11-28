@@ -14,10 +14,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = EntityPlayerSP.class, priority = 999)
 public class EntityPlayerSPMixin extends AbstractClientPlayer
 {

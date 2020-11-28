@@ -4,10 +4,6 @@ import cat.yoink.yoinkhack.Client;
 import cat.yoink.yoinkhack.api.module.Category;
 import cat.yoink.yoinkhack.api.module.Module;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class DiscordRPC extends Module
 {
 	public DiscordRPC(String name, Category category, String description)

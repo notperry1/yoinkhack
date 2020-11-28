@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.api.component;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Component
 {
 	public final Minecraft mc = Minecraft.getMinecraft();

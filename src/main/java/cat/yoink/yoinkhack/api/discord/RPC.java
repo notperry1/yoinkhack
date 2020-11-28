@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.api.discord;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class RPC
 {
 	private String details;

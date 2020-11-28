@@ -8,10 +8,6 @@ import cat.yoink.yoinkhack.mixin.mixins.accessor.ITimer;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Timer extends Module
 {
 	public final Setting speed = new Setting("Speed", this, 1, 10, 100);

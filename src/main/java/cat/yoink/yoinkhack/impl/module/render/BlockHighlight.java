@@ -14,10 +14,6 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class BlockHighlight extends Module
 {
 	private final Setting color = new Setting("Color", this, "Static", new ArrayList<>(Arrays.asList("Static", "Rainbow")));

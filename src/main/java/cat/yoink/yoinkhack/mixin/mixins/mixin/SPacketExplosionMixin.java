@@ -5,10 +5,6 @@ import net.minecraft.network.play.server.SPacketExplosion;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = SPacketExplosion.class, priority = 999)
 public class SPacketExplosionMixin implements ISPacketExplosion
 {

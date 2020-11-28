@@ -4,10 +4,6 @@ import net.minecraft.client.Minecraft;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class DesktopNotificationManager
 {
 	public TrayIcon trayIcon;

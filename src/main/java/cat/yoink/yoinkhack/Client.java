@@ -24,10 +24,6 @@ import cat.yoink.yoinkhack.api.waypoint.WaypointManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 @Mod(modid = "yoinkhack", name = "yoinkhack", version = "3.4-beta2")
 public class Client
 {

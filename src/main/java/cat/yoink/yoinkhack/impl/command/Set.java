@@ -6,10 +6,6 @@ import cat.yoink.yoinkhack.api.module.Module;
 import cat.yoink.yoinkhack.api.setting.Setting;
 import cat.yoink.yoinkhack.api.util.LoggerUtil;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Set extends Command
 {
 	public Set(String name, String[] alias, String usage)

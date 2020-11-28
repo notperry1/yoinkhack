@@ -9,10 +9,6 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/**
- * @author yoink
- * @since 9/6/2020
- */
 public class LongJump extends Module
 {
 	private final Setting speed = new Setting("Speed", this, 1, 50, 100);

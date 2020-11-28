@@ -6,10 +6,6 @@ import cat.yoink.yoinkhack.api.util.LoggerUtil;
 import cat.yoink.yoinkhack.api.util.font.CFontRenderer;
 import cat.yoink.yoinkhack.api.util.font.FontUtil;
 
-/**
- * @author yoink
- * @since 9/1/2020
- */
 public class Font extends Command
 {
 	public Font(String name, String[] alias, String usage)

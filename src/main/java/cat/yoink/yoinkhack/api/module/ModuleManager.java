@@ -11,10 +11,6 @@ import cat.yoink.yoinkhack.impl.module.render.*;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ModuleManager
 {
 	private final ArrayList<Module> modules = new ArrayList<>();

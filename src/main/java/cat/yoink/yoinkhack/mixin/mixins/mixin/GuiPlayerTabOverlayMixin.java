@@ -9,10 +9,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = GuiPlayerTabOverlay.class, priority = 999)
 public class GuiPlayerTabOverlayMixin
 {

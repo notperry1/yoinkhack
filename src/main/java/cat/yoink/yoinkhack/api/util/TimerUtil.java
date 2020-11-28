@@ -1,9 +1,5 @@
 package cat.yoink.yoinkhack.api.util;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class TimerUtil
 {
 	private long time = System.nanoTime() / 1000000L;

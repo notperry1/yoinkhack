@@ -10,10 +10,6 @@ import net.minecraft.network.play.server.SPacketEntityVelocity;
 import net.minecraft.network.play.server.SPacketExplosion;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class Velocity extends Module
 {
 

@@ -3,10 +3,6 @@ package cat.yoink.yoinkhack.api.util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class LoggerUtil
 {
 	public static void sendMessage(String message)

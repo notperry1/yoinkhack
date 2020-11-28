@@ -4,10 +4,6 @@ import cat.yoink.yoinkhack.Client;
 import cat.yoink.yoinkhack.api.util.LoggerUtil;
 import net.minecraft.client.Minecraft;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class Command
 {
 	public final Minecraft mc = Minecraft.getMinecraft();

@@ -2,10 +2,6 @@ package cat.yoink.yoinkhack.api.util;
 
 import net.minecraft.client.Minecraft;
 
-/**
- * @author yoink
- * @since 8/31/2020
- */
 public class MoveUtil
 {
 	private static final Minecraft mc = Minecraft.getMinecraft();

@@ -12,10 +12,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import org.lwjgl.input.Keyboard;
 
-/**
- * @author yoink
- * @since 8/30/2020
- */
 public class GuiMove extends Module
 {
 	public GuiMove(String name, Category category, String description)

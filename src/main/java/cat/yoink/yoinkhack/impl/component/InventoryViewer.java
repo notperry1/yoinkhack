@@ -9,10 +9,6 @@ import net.minecraft.item.ItemStack;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class InventoryViewer extends Component
 {
 	public InventoryViewer(String name)

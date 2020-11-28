@@ -8,10 +8,6 @@ import net.minecraft.item.ItemExpBottle;
 import net.minecraft.network.play.client.CPacketPlayer;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class FootXP extends Module
 {
 	public FootXP(String name, Category category, String description)

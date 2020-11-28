@@ -11,10 +11,6 @@ import net.minecraft.client.Minecraft;
 import java.io.*;
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class ConfigUtil extends Thread
 {
 	private final Minecraft mc = Minecraft.getMinecraft();

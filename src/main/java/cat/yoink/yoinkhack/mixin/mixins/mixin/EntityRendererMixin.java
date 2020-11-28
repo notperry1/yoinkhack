@@ -15,10 +15,6 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 @Mixin(value = EntityRenderer.class, priority = 999)
 public class EntityRendererMixin
 {

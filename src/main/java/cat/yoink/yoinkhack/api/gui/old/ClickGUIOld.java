@@ -12,10 +12,6 @@ import org.lwjgl.input.Keyboard;
 import java.util.ArrayList;
 import java.util.Objects;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class ClickGUIOld extends GuiScreen
 {
 	private Category selectedCategory;

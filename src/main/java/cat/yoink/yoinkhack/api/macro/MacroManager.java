@@ -2,10 +2,6 @@ package cat.yoink.yoinkhack.api.macro;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class MacroManager
 {
 	private final ArrayList<Macro> macros = new ArrayList<>();

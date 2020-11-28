@@ -10,10 +10,6 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import org.lwjgl.opengl.GL11;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class RenderUtil
 {
 	private static final Minecraft mc = Minecraft.getMinecraft();

@@ -7,10 +7,6 @@ import cat.yoink.yoinkhack.api.setting.Setting;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author yoink
- * @since 8/26/2020
- */
 public class CombatSupplies extends Module
 {
 	public CombatSupplies(String name, Category category, String description)

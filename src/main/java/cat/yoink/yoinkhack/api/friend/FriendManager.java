@@ -2,10 +2,6 @@ package cat.yoink.yoinkhack.api.friend;
 
 import java.util.ArrayList;
 
-/**
- * @author yoink
- * @since 8/28/2020
- */
 public class FriendManager
 {
 	private final ArrayList<Friend> friends = new ArrayList<>();

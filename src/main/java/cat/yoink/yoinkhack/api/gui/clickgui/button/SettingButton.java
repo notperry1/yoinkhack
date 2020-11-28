@@ -8,10 +8,6 @@ import net.minecraft.client.gui.Gui;
 
 import java.awt.*;
 
-/**
- * @author yoink
- * @since 8/29/2020
- */
 public class SettingButton implements IComponent
 {
 	public final Minecraft mc = Minecraft.getMinecraft();
