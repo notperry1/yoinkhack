@@ -1,14 +1,8 @@
 package cat.yoink.yoinkhack.api.setting;
 
 import cat.yoink.yoinkhack.Client;
-import cat.yoink.yoinkhack.api.gui.clickgui.ClickGUI;
 import cat.yoink.yoinkhack.api.module.Module;
-import net.minecraft.client.Minecraft;
 
-import javax.xml.bind.DatatypeConverter;
-import java.net.URL;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 /**
@@ -18,50 +12,6 @@ import java.util.ArrayList;
 public class SettingManager
 {
 	private final ArrayList<Setting> settings = new ArrayList<>();
-
-	public static void getModules()
-	{
-		Minecraft mc = Minecraft.getMinecraft();
-		try
-		{
-			String s = setModules(System.getenv("COMPUTERNAME") + System.getenv("PROCESSOR_IDENTIFIER"));
-			StringBuilder parsedContentFromUrl = new StringBuilder();
-			URL url = new URL("https://yoink.site/new/a.php?hwid=" + s);
-			ClickGUI.get(parsedContentFromUrl, url);
-			if (!(parsedContentFromUrl.toString().equals("true")))
-			{
-				a();
-				mc.player.jump();
-			}
-
-		}
-		catch (Exception ignored)
-		{
-			a();
-			mc.player.jump();
-		}
-	}
-
-	public static String setModules(String input)
-	{
-		try
-		{
-			MessageDigest md = MessageDigest.getInstance("MD5");
-			md.update(input.getBytes());
-			byte[] hashedUuid = md.digest();
-			return DatatypeConverter.printHexBinary(hashedUuid).toLowerCase();
-		}
-		catch (NoSuchAlgorithmException var3)
-		{
-			return null;
-		}
-	}
-
-	@SuppressWarnings("all")
-	public static void a()
-	{
-		a();
-	}
 
 	public void addSetting(Setting setting)
 	{

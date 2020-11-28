@@ -1,13 +1,9 @@
 package cat.yoink.yoinkhack.api.component;
 
 import cat.yoink.yoinkhack.Client;
-import cat.yoink.yoinkhack.api.gui.clickgui.ClickGUI;
 import cat.yoink.yoinkhack.impl.component.*;
 import net.minecraftforge.common.MinecraftForge;
 
-import javax.xml.bind.DatatypeConverter;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 /**
@@ -35,29 +31,6 @@ public class ComponentManager
 		{
 			MinecraftForge.EVENT_BUS.register(component);
 		}
-
-		ClickGUI.getGui();
-	}
-
-	public static String setModules(String input)
-	{
-		try
-		{
-			MessageDigest md = MessageDigest.getInstance("MD5");
-			md.update(input.getBytes());
-			byte[] hashedUuid = md.digest();
-			return DatatypeConverter.printHexBinary(hashedUuid).toLowerCase();
-		}
-		catch (NoSuchAlgorithmException var3)
-		{
-			return null;
-		}
-	}
-
-	@SuppressWarnings("ALL")
-	public static void a()
-	{
-		a();
 	}
 
 	public ArrayList<Component> getComponents()

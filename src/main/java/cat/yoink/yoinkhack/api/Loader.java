@@ -8,7 +8,7 @@ import cat.yoink.yoinkhack.api.discord.Discord;
 import cat.yoink.yoinkhack.api.discord.RPC;
 import cat.yoink.yoinkhack.api.event.EventHandler;
 import cat.yoink.yoinkhack.api.friend.FriendManager;
-import cat.yoink.yoinkhack.api.gui.button.ButtonGUI;
+import cat.yoink.yoinkhack.api.gui.button.ButtonGui;
 import cat.yoink.yoinkhack.api.gui.clickgui.ClickGUI;
 import cat.yoink.yoinkhack.api.gui.hud.HUDEditor;
 import cat.yoink.yoinkhack.api.gui.old.ClickGUINew;
@@ -22,7 +22,6 @@ import cat.yoink.yoinkhack.api.util.ConfigUtil;
 import cat.yoink.yoinkhack.api.util.TPSUtil;
 import cat.yoink.yoinkhack.api.util.font.CFontRenderer;
 import cat.yoink.yoinkhack.api.waypoint.WaypointManager;
-import cat.yoink.yoinkhack.impl.command.Help;
 
 import java.awt.*;
 
@@ -34,7 +33,6 @@ public class Loader
 {
 	public void load()
 	{
-		Help.load();
 		Client.INSTANCE.rpc = new RPC();
 		Client.INSTANCE.settingManager = new SettingManager();
 		Client.INSTANCE.moduleManager = new ModuleManager();
@@ -57,7 +55,7 @@ public class Loader
 		Client.INSTANCE.clickGUI = new ClickGUI();
 		Client.INSTANCE.hudEditor = new HUDEditor();
 		Client.INSTANCE.clickGUIOld = new ClickGUIOld();
-		Client.INSTANCE.buttonGUI = new ButtonGUI();
+		Client.INSTANCE.buttonGUI = new ButtonGui();
 		Client.INSTANCE.clickGUINew = new ClickGUINew();
 		TPSUtil.INSTANCE = new TPSUtil();
 		Client.INSTANCE.discord.start();

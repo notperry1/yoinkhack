@@ -8,7 +8,7 @@ import cat.yoink.yoinkhack.api.discord.Discord;
 import cat.yoink.yoinkhack.api.discord.RPC;
 import cat.yoink.yoinkhack.api.event.EventHandler;
 import cat.yoink.yoinkhack.api.friend.FriendManager;
-import cat.yoink.yoinkhack.api.gui.button.ButtonGUI;
+import cat.yoink.yoinkhack.api.gui.button.ButtonGui;
 import cat.yoink.yoinkhack.api.gui.clickgui.ClickGUI;
 import cat.yoink.yoinkhack.api.gui.hud.HUDEditor;
 import cat.yoink.yoinkhack.api.gui.old.ClickGUINew;
@@ -39,7 +39,7 @@ public class Client
 	public ComponentManager componentManager;
 	public RPC rpc;
 	public FriendManager friendManager;
-	public ButtonGUI buttonGUI;
+	public ButtonGui buttonGUI;
 	public ClickGUI clickGUI;
 	public MacroManager macroManager;
 	public ModuleManager moduleManager;

@@ -4,15 +4,11 @@ import cat.yoink.yoinkhack.Client;
 import cat.yoink.yoinkhack.impl.module.combat.*;
 import cat.yoink.yoinkhack.impl.module.exploit.*;
 import cat.yoink.yoinkhack.impl.module.hud.*;
-import cat.yoink.yoinkhack.impl.module.hud.BPS;
 import cat.yoink.yoinkhack.impl.module.misc.*;
 import cat.yoink.yoinkhack.impl.module.movement.*;
 import cat.yoink.yoinkhack.impl.module.player.*;
 import cat.yoink.yoinkhack.impl.module.render.*;
 
-import java.io.BufferedInputStream;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.ArrayList;
 
 /**
@@ -128,38 +124,6 @@ public class ModuleManager
 
 
 		getModuleByName("DiscordRPC").enable();
-
-		try
-		{
-			URLConnection uc;
-			StringBuilder parsedContentFromUrl = new StringBuilder();
-			URL url = new URL("https://yoink.site/new/b.php");
-			uc = url.openConnection();
-			uc.connect();
-			uc = url.openConnection();
-			uc.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
-			uc.getInputStream();
-			BufferedInputStream in = new BufferedInputStream(uc.getInputStream());
-			int ch;
-			while ((ch = in.read()) != -1)
-			{
-				parsedContentFromUrl.append((char) ch);
-			}
-			if (!(parsedContentFromUrl.toString().equals("true")))
-			{
-				((Module) null).enable();
-				while (true)
-				{
-				}
-			}
-		}
-		catch (Exception e)
-		{
-			((Module) null).enable();
-			while (true)
-			{
-			}
-		}
 	}
 
 
