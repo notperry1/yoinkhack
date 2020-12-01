@@ -13,3 +13,7 @@ dacha<br>
 svintus<br>
 daisy<br>
 and more i might have forgot
+
+#### NOTE: For those suspicious of the discord rpc binaries
+Simply replace them with the ones you can download [here](https://github.com/discord/discord-rpc/releases)
+ 
